@@ -3,8 +3,11 @@ session_start();
 include("functions.php");
 check_session_id();
 
-// var_dump($_FILES);
+var_dump($_POST);
 // exit();
+var_dump($_SESSION);
+var_dump($_FILES);
+exit();
 
 //DBに接続
 $pdo = connect_to_db();

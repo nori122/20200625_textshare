@@ -1,0 +1,43 @@
+body{
+    background-color: #aaaaaa;
+}
+
+.newitem-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0 50px 0 70px;
+}
+
+
+.image, .lesson-info, .item-info, .price-info{
+    box-sizing: border-box;
+    border-bottom: 1px dotted darkgray;
+    /* margin: 30px; */
+    padding: 60px 0;
+        width: 80%;
+
+
+
+}
+
+.newitem-form div{
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+
+.newitem-form input, select{
+height: 30px;
+}
+
+.newitem-form button{
+    height: 50px;
+    background-color: rgb(255, 140, 140);
+    color: white;
+    font-size: 24px;
+    margin: 20px 0 20px 0 ;
+
+}

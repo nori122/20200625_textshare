@@ -1,0 +1,131 @@
+#output{
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+.tips {
+    margin: 20px 10px 40px 10px;
+    padding: 10px;
+    background-color: rgb(253, 205, 205);
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.tips span{
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+    margin: 0px 0px 5px 20px;
+}
+
+
+/* チャット */
+.chat-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-self,.icon-other{
+    margin: auto 15px auto 5px;
+}
+
+.icon-self{
+color: darkorange;
+}
+.icon-other{
+color: gray;
+}
+.message-self {
+    position: relative;
+    /* display: inline-block; */
+    margin: 0.5em 0 0.5em 15px;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #fbf0e6;
+}
+
+.message-self:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px sodivd transparent;
+    border-right: 15px solid #fbf0e6;;
+}
+
+.message-self p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.message-other {
+    position: relative;
+    /* display: inline-block; */
+    margin: 0.5em 0 0.5em 15px;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #eef0f4;
+
+}
+
+.message-other:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px sodivd transparent;
+    border-right: 15px solid #eef0f4;;
+}
+
+.message-other p {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+
+}
+
+.chat{
+    display:flex;
+    flex-direction: column;
+}
+
+.chat textarea{
+    height: 10em;
+    margin: 10px;
+}
+.chat button{
+    height: 4em;
+    margin: 10px;
+    background-color: #aaaaaa;
+    color: seashell;
+    font-size: 16px;
+}
+
+/* ヘッダー */
+
+.chatheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.itemPic{
+    width: 100px;
+}
+
+.itemPic img{
+    width: 100%;
+}
+
+

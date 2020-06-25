@@ -95,7 +95,7 @@ HTML 要素
         </table>
 
         <a href='chat.php?item_id=<?= $result[0]["item_id"] ?>'><button class="begin">ほしいのでチャットを開始する</button></a>
-        <div>質問のやりとりを挿入</div>
+        <!-- <div>質問のやりとりを挿入</div> -->
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

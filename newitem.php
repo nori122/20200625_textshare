@@ -35,7 +35,10 @@ HTML 要素
         <div class="image">
             <div>
                 <label>教科書の画像</label>
-                <input type="file" name="upfile" accept="image/*" capture="camera">
+                <input type="file" name="upfile" accept="image/*" capture="user">
+
+
+
             </div>
         </div>
 

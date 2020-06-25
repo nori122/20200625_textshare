@@ -59,7 +59,7 @@ HTML 要素
             </div>
             <div>
                 <label>教科書の状態</label>
-                <select class="select-form" name="priority">
+                <select class="select-form" name="book_status">
                     <option class="input" selected disabled value="" style='display:none;'></option>
                     <option>未使用に近い</option>
                     <option>目立った書き込みや折り目なし</option>
@@ -81,7 +81,7 @@ HTML 要素
             </div>
             <div>
                 <label>定価(任意入力)</label>
-                <input type="number" name="original_price">
+                <input type="number" name="price_original">
             </div>
         </div>
 
